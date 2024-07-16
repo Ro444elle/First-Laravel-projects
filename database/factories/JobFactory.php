@@ -21,7 +21,6 @@ class JobFactory extends Factory
             'title' => fake()->jobTitle(),
             'salary' => "89000",
             'employer_id' => Employer::factory(),
-
         ];
     }
 }
